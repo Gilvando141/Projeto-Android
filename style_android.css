@@ -34,9 +34,10 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     text-align: center;
     height: 45px;
-    padding: 15px;
+    padding: 15px 15px 30px 15px;
     max-width: 100%;
     min-width: 200px;
+    
 }
 header p{
     color: white;
@@ -48,7 +49,7 @@ header p{
 header h1{
     color: rgba(255, 255, 255, 0.952);
     font-family: var(--font-destaque);  
-    font-size: 23px;  
+    font-size: 40px;  
     text-shadow: 1px 2px rgba(0, 0, 0, 0.201); 
 }
 header h1 a{
@@ -56,20 +57,22 @@ header h1 a{
     text-decoration: none;
 }
 header p{
-    font-size: 8px;
+    font-size: 12px;
 }
 nav{
-    height: 20px;
+    height: 25px;
     background-color: var(--cor5);
     box-shadow: -3px 2px 10px rgba(0, 0, 0, 0.353);
 }
 nav a{
+    position: relative;
     color: white;
     text-decoration: none;
     margin: 10px;
-    font-size: 9px;
+    font-size: 13px;
     font-weight: bolder;
-    padding: 3px 5px 7px 5px;
+    padding: 3px 5px 8px 5px;
+    text-align: center;
     
 }
 nav a:hover{
@@ -91,7 +94,7 @@ main{
 }
 main h1{
     font-family: var(--font-android);
-    font-size: 15px;
+    font-size: 18px;
     color: var(--cor5);
     padding: 5px 0px;
 }
@@ -102,13 +105,13 @@ main h1{
 }
 main h2{
     font-family: var(--font-android);
-    font-size: 1.0em;
+    font-size: 1.1em;
     color: var(--cor5);
     padding: 3px 0px;
 }
 
 main p{
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.4em;
     text-align: justify;
     text-indent: 30px;
@@ -138,14 +141,14 @@ main aside h3{
     font-family: var(--font-android);
     color: var(--cor5);
     padding: 5px;
-    font-size: 0.9em;
+    font-size: 1.0em;
     background-color: var(--cor3);
     margin: -5px -5px 0px -5px;
     border-radius: 6px 6px  0px 0px;
 }
 main aside ul{
     list-style-position: inside;
-    font-size: 10px;
+    font-size: 13px;
     columns: 2;
     padding: 3px 0px;
 }
@@ -170,7 +173,7 @@ footer{
     background-color: var(--cor5);
     color: white;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     font-family: var(--font-padrao);
